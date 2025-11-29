@@ -154,7 +154,6 @@ output {
   elasticsearch {
     hosts => ["localhost:9200"]
     index => "webserver-logs-%{+YYYY.MM.dd}"
-    document_type => "_doc"
   }
 }
 ```
