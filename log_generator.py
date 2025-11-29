@@ -48,7 +48,7 @@ USER_AGENTS = [
 ]
 
 # HTTP versions
-HTTP_VERSIONS = ["HTTP/1.0", "HTTP/1.1", "HTTP/2.0"]
+HTTP_VERSIONS = ["HTTP/1.0", "HTTP/1.1", "HTTP/2"]
 
 
 def get_response_size(status_code):
